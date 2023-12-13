@@ -37,7 +37,7 @@ int main()
     }
     double pred;
     cin >> pred;
-    double u = (pred - data[n / 2 - !(n % 2)][1]) / (data[1][0] - data[0][0]);
+    double u = (pred - data[n / 2 - !(n % 2)][0]) / (data[1][0] - data[0][0]);
     double u1 = u;
     int fact = 1;
     double y = data[n / 2 - !(n % 2)][1];
